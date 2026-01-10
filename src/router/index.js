@@ -23,7 +23,7 @@ const routes = [
   },
 
   {
-    path: '/hola',
+    path: '/hola/:id?', //path variable (optional)
     name: 'hola',
     component: HolaMundo
   },
